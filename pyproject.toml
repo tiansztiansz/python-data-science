@@ -1,0 +1,44 @@
+[project]
+name = "python-data-science"
+version = "0.1.0"
+description = "b站 AI日日新 python数据科学"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.6.0",
+    "datasets>=3.5.1",
+    "evaluate>=0.4.3",
+    "fastapi>=0.115.12",
+    "pandas>=2.2.3",
+    "rouge-score>=0.1.2",
+    "sacrebleu>=2.5.1",
+    "seqeval>=1.2.2",
+    "torch>=2.7.0",
+    "torchaudio>=2.7.0",
+    "torchvision>=0.22.0",
+    "transformers>=4.51.3",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu" },
+]
+torchvision = [
+  { index = "pytorch-cpu" },
+]
+torchaudio = [
+  { index = "pytorch-cpu" },
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[[index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
