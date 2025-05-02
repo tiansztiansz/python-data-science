@@ -9,6 +9,7 @@ dependencies = [
     "datasets>=3.5.1",
     "evaluate>=0.4.3",
     "fastapi>=0.115.12",
+    "modelscope>=1.25.0",
     "pandas>=2.2.3",
     "rouge-score>=0.1.2",
     "sacrebleu>=2.5.1",
@@ -42,3 +43,8 @@ default = true
 [[index]]
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 default = true
+
+[dependency-groups]
+dev = [
+    "modelscope>=1.25.0",
+]
