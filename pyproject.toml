@@ -23,11 +23,13 @@ dependencies = [
     "transformers>=4.51.3",
 ]
 
+# pytorch指定为cpu版本
 [[tool.uv.index]]
 name = "pytorch-cpu"
 url = "https://download.pytorch.org/whl/cpu"
 explicit = true
 
+# pytorch指定为cpu版本
 [tool.uv.sources]
 torch = [
   { index = "pytorch-cpu" },
@@ -39,10 +41,12 @@ torchaudio = [
   { index = "pytorch-cpu" },
 ]
 
+# 国内镜像源
 [[tool.uv.index]]
 url = "https://mirrors.aliyun.com/pypi/simple"
 default = true
 
+# 国内镜像源
 [[index]]
 url = "https://mirrors.aliyun.com/pypi/simple"
 default = true
