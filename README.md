@@ -1,7 +1,8 @@
 # Python 数据科学
 
 ## 介绍
-b站AI日日新不定期更新使用Python框架完成机器学习、深度学习、数据科学任务
+b站 AI日日新 不定期更新使用Python框架完成机器学习、深度学习、数据科学任务。配套视频见[b站合集](https://www.bilibili.com/video/BV1pHd8YiERd/?spm_id_from=333.1387.homepage.video_card.click&vd_source=06eafedcfca50f6eabb7b3d6b61ecfe3)
+
 
 ## python的windows环境
 
@@ -28,3 +29,6 @@ b站AI日日新不定期更新使用Python框架完成机器学习、深度学�
 ## 表格中的机器学习
 ### 聚类
 聚类作为一种无监督学习方法，在多个领域有着广泛的应用。例如，在图像处理领域，聚类被用作图像分割的重要方法之一，除了图像处理之外，聚类分析还在文本挖掘、生物信息学等多个领域发挥了重要作用。对应的notebook在[notebooks/聚类.ipynb](notebooks/聚类.ipynb)
+
+### 分类
+分类的作用主要是将输入数据分配到预定义的类别中。这种分类任务是监督学习的一种形式。数字格式分类的核心作用是通过对数值型数据的学习和建模，预测新数据所属的类别。例如：金融领域 ：根据用户的信用评分（数值型数据）判断其贷款申请是否通过（高风险/低风险）。对应的notebook在[notebooks/分类.ipynb](notebooks/分类.ipynb)
