@@ -19,3 +19,6 @@ b站AI日日新不定期更新使用Python框架完成机器学习、深度学�
 
 ### 实体识别
 实体识别，也称为命名实体识别（Named Entity Recognition，简称NER），是自然语言处理（NLP）的一个组成部分，用于识别文本中具有特定意义的实体。这些实体可以包括人名、地名、机构名、专有名词等，并且还可能涵盖时间、数量和其他预定义类别。我们同样将使用transformers框架来完成实体识别。对应的notebook在[notebooks/实体识别.ipynb](notebooks/实体识别.ipynb)
+
+### 文本到文本生成
+文本到文本生成（Text-to-Text Generation） 是一种自然语言处理（NLP）任务，其核心目标是将一段输入文本自动转换为另一段输出文本。这种转换可以是对原文的改写、总结、翻译、问答、复述等多种形式。对应的notebook在[notebooks/文本到文本生成.ipynb](notebooks/文本到文本生成.ipynb)
