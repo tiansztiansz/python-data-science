@@ -15,4 +15,7 @@ b站AI日日新不定期更新使用Python框架完成机器学习、深度学�
 
 ## 自然语言处理
 ### 文本分类
-我们将使用transformers框架来完成文本分类，它可以非常轻松的训练多种领域的模型，是我们必须学习的库，对应的notebook在[notebooks/文本分类.ipynb](notebooks/文本分类.ipynb)
+文本分类是将文本划分为不同的类别的任务，例如垃圾邮件过滤、新闻文章分类等。我们将使用transformers框架来完成文本分类，它可以非常轻松的训练多种领域的模型，是我们必须学习的库，对应的notebook在[notebooks/文本分类.ipynb](notebooks/文本分类.ipynb)
+
+### 实体识别
+实体识别，也称为命名实体识别（Named Entity Recognition，简称NER），是自然语言处理（NLP）的一个组成部分，用于识别文本中具有特定意义的实体。这些实体可以包括人名、地名、机构名、专有名词等，并且还可能涵盖时间、数量和其他预定义类别。我们同样将使用transformers框架来完成实体识别。对应的notebook在[notebooks/实体识别.ipynb](notebooks/实体识别.ipynb)
