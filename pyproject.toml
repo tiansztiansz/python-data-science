@@ -19,6 +19,7 @@ dependencies = [
     "modelscope>=1.25.0",
     "pandas>=2.2.3",
     "protobuf>=6.30.2",
+    "pytorchvideo>=0.1.5",
     "ray==2.44.1",
     "rouge-score>=0.1.2",
     "sacrebleu>=2.5.1",

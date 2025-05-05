@@ -2,3 +2,4 @@
 **/__pycache__/
 models
 datasets/时间序列预测训练集.csv
+datasets/视频分类数据集

@@ -21,8 +21,18 @@ b站 AI日日新 不定期更新使用Python框架完成机器学习、深度学
 ### 实体识别
 实体识别，也称为命名实体识别（Named Entity Recognition，简称NER），是自然语言处理（NLP）的一个组成部分，用于识别文本中具有特定意义的实体。这些实体可以包括人名、地名、机构名、专有名词等，并且还可能涵盖时间、数量和其他预定义类别。我们同样将使用transformers框架来完成实体识别。对应的notebook在[notebooks/实体识别.ipynb](notebooks/实体识别.ipynb)
 
-### 文本到文本生成
-文本到文本生成（Text-to-Text Generation） 是一种自然语言处理（NLP）任务，其核心目标是将一段输入文本自动转换为另一段输出文本。这种转换可以是对原文的改写、总结、翻译、问答、复述等多种形式。对应的notebook在[notebooks/文本到文本生成.ipynb](notebooks/文本到文本生成.ipynb)
+### 端到端文本生成
+端到端文本生成（Text-to-Text Generation） 是一种自然语言处理（NLP）任务，其核心目标是将一段输入文本自动转换为另一段输出文本。这种转换可以是对原文的改写、总结、翻译、问答、复述等多种形式。对应的notebook在[notebooks/端到端文本生成.ipynb](notebooks/端到端文本生成.ipynb)
+
+
+
+## 计算机视觉
+### 图像分类
+图像分类被用来开发图像识别应用程序，这些程序可以识别动物、植物、汽车车型、水果、蔬菜等，并且像iPhone这样的智能手机也利用这项技术实现照片的自动分类功能。对应的notebook在[notebooks/图像分类.ipynb](notebooks/图像分类.ipynb)
+
+### 视频分类
+视频分类能够帮助在线视频平台自动识别上传视频的内容类型，如体育、音乐、电影等，从而实现高效的视频管理和快速检索。对应的notebook在[notebooks/视频分类.ipynb](notebooks/视频分类.ipynb)
+
 
 
 
@@ -41,7 +51,51 @@ b站 AI日日新 不定期更新使用Python框架完成机器学习、深度学
 
 
 
-## 计算机视觉
-### 图像分类
-图像分类被用来开发图像识别应用程序，这些程序可以识别动物、植物、汽车车型、水果、蔬菜等，并且像iPhone这样的智能手机也利用这项技术实现照片的自动分类功能。对应的notebook在[notebooks/图像分类.ipynb](notebooks/图像分类.ipynb)
+## 常用框架
+### transformers库
+[transformers库](https://hf-mirror.com/docs/transformers/index)。Transformers库能够完成多种自然语言处理（NLP）任务，包括但不限于文本生成、命名实体识别、情感分析、翻译、摘要等。此外，Transformers库不仅限于NLP领域，它还包含了用于计算机视觉任务的现代卷积网络等模型。通过使用Transformers库提供的pipeline函数，可以方便地执行上述任务，同时也支持用户深入定制和开发新的模型应用
 
+### sklearn库
+[Sklearn（scikit-learn）](https://scikit-learn.org/stable/index.html)是一个功能强大的机器学习库，能够完成多种任务，主要包括以下几类：
+1. 回归 ：用于预测连续值的输出，比如房价预测或温度预测等
+2. 聚类 ：将数据划分为不同的群组，使得同一群组内的数据相似度较高，而不同群组之间的差异较大。例如客户分群分析
+3. 降维 ：减少数据集的变量数量，同时保留尽可能多的信息，常用于可视化和加速计算。例如主成分分析（PCA）
+4. 分类 ：通过已有的带标签数据训练模型，对新数据进行类别预测。例如，判断一封邮件是否为垃圾邮件
+
+### autogluon库
+[AutoGluon](https://auto.gluon.ai/stable/index.html)库能够完成多种机器学习任务，包括但不限于：
+1. 自动预处理 ：在处理数据时，AutoGluon可以自动识别任务类型，并对特征进行预处理，简化了数据准备阶段的工作
+2. 超参数调优 ：AutoGluon能自动进行超参数调优，使得开发者无需深入理解每一种算法的细节也能构建高效的模型
+3. 模型选择与集成 ：AutoGluon能够在多个不同类型的机器学习模型中进行选择，并根据问题的性质自动进行模型的组合与集成，以提高预测性能
+
+
+## 论文
+### resnet论文
+[Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+
+### transformer论文
+[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+
+### bert论文
+[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+
+### T5论文
+[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
+
+### vllm论文
+[Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)
+
+### sglang论文
+[SGLang: Efficient Execution of Structured Language Model Programs](https://arxiv.org/abs/2312.07104)
+
+### dinov2论文
+[DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193)
+
+### lert论文
+[LERT: A Linguistically-motivated Pre-trained Language Model](https://arxiv.org/abs/2211.05344)
+
+### mengzi系列论文
+[Mengzi: Towards Lightweight yet Ingenious Pre-trained Models for Chinese](https://arxiv.org/abs/2110.06696)
+
+### 随机森林论文
+[Random Forests](https://link.springer.com/article/10.1023/A:1010933404324)
