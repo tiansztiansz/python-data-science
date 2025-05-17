@@ -23,6 +23,7 @@ dependencies = [
     "ray==2.44.1",
     "rouge-score>=0.1.2",
     "sacrebleu>=2.5.1",
+    "sentence-transformers>=4.1.0",
     "sentencepiece>=0.2.0",
     "seqeval>=1.2.2",
     "tiktoken>=0.9.0",
