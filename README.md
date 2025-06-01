@@ -13,7 +13,7 @@ b站 AI日日新 不定期更新使用Python框架完成机器学习、深度学
 1. 下载[python3.10](https://www.python.org/downloads/release/python-31011/)，注意选择`Windows installer (64-bit)`，在安装指引中记得勾选将python添加到路径
 2. 安装目前最流行的编辑器 [vs code](https://code.visualstudio.com/Download#)，在安装指引中记得将vs code添加到path路径，并开启右键打开文件夹功能，按照安装提示完成安装后即可打开该软件，然后你需要安装 `Chinese (Simplified)` 【汉化插件】、`python`【微软官方python语言支持】、`Ruff`【格式化和语法】、`Material Icon Theme`【文件标签】、`jupyter`【notebook支持】
 3. 安装完以上两个工具就已经ok了，然后我们新建一个文件夹，然后在文件夹内右键选择vs code打开。接着选择左上角的`查看` --> `终端`可以在打开的窗口运行命令
-4. pip命令是python自带的包管理工具，我们需要替换pip源来提升下载速度，请运行如下命令更换源：`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
+4. pip命令是python自带的包管理工具，我们需要替换pip源来提升下载速度，请运行如下命令更换源：`pip config set global.index-url https://mirrors.aliyun.com/pypi/simple`
 5. 然后请再安装`uv`，它是比pip更快更强大的包管理工具，运行如下命令：`pip install uv`。然后让我们创建一个虚拟环境：`uv venv`，并且你可以初始化项目：`uv init`，还有使用与pip兼容的安装命令`uv pip install <your_package>`，或者你可以使用`uv add <your_package>`安装。因为uv的镜像配置跟pip不一致，你可以参考我当前项目下的`pyproject.toml`为当前项目配置镜像源，还有更多功能请前往[uv官网](https://docs.astral.sh/uv/)查看
 6. 你可以使用 `uv sync` 命令同步本项目的依赖
    
@@ -54,6 +54,14 @@ b站 AI日日新 不定期更新使用Python框架完成机器学习、深度学
 
 ## 音频中的深度学习
 
-| 任务   | 任务说明                                                                                                           | notebook                                     |
-| ---- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| 任务   | 任务说明                                                                               | notebook                                     |
+| ---- | ---------------------------------------------------------------------------------- | -------------------------------------------- |
 | 语音识别 | 语音识别应用广泛，涵盖智能设备（如语音控制家电、汽车导航）、办公场景（会议实时转写、客服自动应答）、生活服务（手机语音助手、输入法转文字）、医疗领域（病历语音录入） | [notebooks/语音识别.ipynb](notebooks/语音识别.ipynb) |
+
+
+
+## 常见工具使用
+
+| 工具      | 工具说明                                                                                                              | 链接                                               |
+| ------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| fastapi | FastAPI 是一个基于 Python 的现代、高性能 Web 框架，专门用于构建 API（应用程序接口）。它结合了 Python 类型提示、异步编程以及自动文档生成等特性，使其成为开发高效、易维护的 Web 服务的理想选择 | [serve/fastapi_serve.py](serve/fastapi_serve.py) |
