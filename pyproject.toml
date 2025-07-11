@@ -18,6 +18,9 @@ dependencies = [
     "funasr>=1.2.6",
     "ipykernel>=6.29.5",
     "ipywidgets>=8.1.6",
+    "langchain[openai]>=0.3.26",
+    "langchain-openai>=0.3.27",
+    "langgraph>=0.5.2",
     "modelscope>=1.25.0",
     "pandas>=2.2.3",
     "protobuf>=6.30.2",
@@ -34,6 +37,7 @@ dependencies = [
     "torchaudio==2.6.0",
     "torchvision==0.21.0",
     "transformers==4.49.0",
+    "ultralytics>=8.3.151",
     "uvicorn>=0.34.2",
 ]
 

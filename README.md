@@ -19,6 +19,15 @@ b站 AI日日新 不定期更新使用Python框架完成机器学习、深度学
    
    
 
+## langchain教程
+
+| 阶段  | 任务               | notebook                                                             |
+| --- | ---------------- | -------------------------------------------------------------------- |
+| 入门  | 构建一个简单的 LLM 应用程序 | [notebooks/构建一个简单的 LLM 应用程序.ipynb](notebooks/构建一个简单的 LLM 应用程序.ipynb) |
+| 入门  | 构建聊天机器人          | [notebooks/构建聊天机器人.ipynb](notebooks/构建聊天机器人.ipynb)                   |
+
+
+
 ## 自然语言处理
 
 | 任务      | 任务说明                                                                                                         | notebook                                           |
@@ -74,21 +83,3 @@ b站 AI日日新 不定期更新使用Python框架完成机器学习、深度学
 | 问题     | 问题说明                                    | 解决方法                                       |
 | ------ | --------------------------------------- | ------------------------------------------ |
 | 电脑网络问题 | 电脑能访问百度，但其他网站访问不了，原因是ip冲突了，需要修改电脑ip和dns | [notebooks/电脑网络问题.md](notebooks/电脑网络问题.md) |
-
-
-
-## 电脑常用软件
-
-| 软件名          | 软件功能                                                                                                                                                  | 下载链接                                             |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| Ventoy       | Ventoy 是一款开源免费的多系统启动盘制作工具，主要用于创建可启动的 USB 驱动器，支持直接从 ISO、WIM、IMG、VHD(x) 和 EFI 文件启动，而无需反复格式化 U 盘。                                                        | [链接](https://www.ventoy.net/cn/download.html)    |
-| vs code      | Visual Studio Code（简称 VS Code）是微软推出的一款免费、开源、跨平台的现代化代码编辑器，支持 Windows、macOS 和 Linux 系统。它兼具轻量级和高性能的特点，同时拥有强大的扩展能力，使其不仅适用于代码编辑，还能通过插件扩展实现类似集成开发环境（IDE）的功能 | [链接](https://code.visualstudio.com/)             |
-| watt toolkit | Watt Toolkit（原名 Steam++）是一款开源、跨平台的多功能游戏工具箱，但它同时还提供了github和huggingface的访问加速                                                                            | [链接](https://steampp.net/)                       |
-| omofun       | Omofun 是一款专为动漫爱好者设计的免费在线观看平台，提供海量动漫和漫画资源，支持高清播放、离线下载、弹幕互动等功能                                                                                          | [链接](https://www.omoo.app/)                      |
-| obs          | OBS（Open Broadcaster Software）是一款免费开源的视频录制与直播推流软件，支持 Windows、macOS 和 Linux 系统，广泛用于游戏直播、在线教学、视频会议等场景                                                   | [链接](https://obsproject.com/zh-cn/download)      |
-| fdm          | Free Download Manager（免费下载管理器），适用场景：适用于需要高效下载、管理文件，或从网站批量获取资源的用户                                                                                      | [链接](https://www.freedownloadmanager.org/zh/)    |
-| everything   | Everything 是一款由 Voidtools 开发的免费、轻量级、超高速的本地文件搜索工具，专为 Windows 系统设计，能够秒级搜索计算机上的文件和文件夹                                                                    | [链接](https://www.voidtools.com/zh-cn/downloads/) |
-| 剪映           | 剪映（CapCut）是字节跳动（抖音母公司）推出的一款免费、全平台的视频剪辑软件，支持 Windows、macOS、iOS、Android 等操作系统，并提供网页版和企业版。它主打简单易用，同时提供专业级剪辑功能，适合从新手到专业创作者的各类用户                           | [链接](https://www.capcut.cn/)                     |
-| 微信           | 微信（WeChat） 是腾讯公司推出的一款多功能社交应用，支持 iOS、Android、Windows、macOS 等平台。它不仅是即时通讯工具，还整合了支付、社交、生活服务等多种功能，成为全球用户最多的社交软件之一              | [链接](https://weixin.qq.com/)                     |
-
-
