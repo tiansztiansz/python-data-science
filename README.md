@@ -23,7 +23,7 @@ b站 AI日日新 不定期更新使用Python框架完成机器学习、深度学
 
 | 阶段  | 任务               | notebook                                                             |
 | --- | ---------------- | -------------------------------------------------------------------- |
-| 入门  | 构建一个简单的 LLM 应用程序 | [notebooks/构建一个简单的 LLM 应用程序.ipynb](notebooks/构建一个简单的 LLM 应用程序.ipynb) |
+| 入门  | 构建一个简单的 LLM 应用程序 | [notebooks/构建一个简单的LLM应用程序.ipynb](notebooks/构建一个简单的LLM应用程序.ipynb) |
 | 入门  | 构建聊天机器人          | [notebooks/构建聊天机器人.ipynb](notebooks/构建聊天机器人.ipynb)                   |
 
 
