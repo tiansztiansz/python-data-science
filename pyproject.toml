@@ -39,6 +39,9 @@ dependencies = [
     "transformers==4.49.0",
     "ultralytics>=8.3.151",
     "uvicorn>=0.34.2",
+    "langchain-tavily>=0.2.7",
+    "langchain-community>=0.3.27",
+    "pypdf>=5.7.0",
 ]
 
 # pytorch指定为cpu版本
