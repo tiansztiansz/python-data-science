@@ -42,6 +42,8 @@ dependencies = [
     "langchain-tavily>=0.2.7",
     "langchain-community>=0.3.27",
     "pypdf>=5.7.0",
+    "beautifulsoup4>=4.13.4",
+    "langchain-ollama>=0.3.4",
 ]
 
 # pytorch指定为cpu版本

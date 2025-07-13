@@ -508,6 +508,19 @@ wheels = [
 ]
 
 [[package]]
+name = "beautifulsoup4"
+version = "4.13.4"
+source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
+dependencies = [
+    { name = "soupsieve" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://mirrors.aliyun.com/pypi/packages/d8/e4/0c4c39e18fd76d6a628d4dd8da40543d136ce2d1752bd6eeeab0791f4d6b/beautifulsoup4-4.13.4.tar.gz", hash = "sha256:dbb3c4e1ceae6aefebdaf2423247260cd062430a410e38c66f2baa50a8437195" }
+wheels = [
+    { url = "https://mirrors.aliyun.com/pypi/packages/50/cd/30110dc0ffcf3b131156077b90e9f60ed75711223f306da4db08eff8403b/beautifulsoup4-4.13.4-py3-none-any.whl", hash = "sha256:9bbbb14bfde9d79f38b8cd5f8c7c85f4b8f2523190ebed90e950a8dea4cb1c4b" },
+]
+
+[[package]]
 name = "boto3"
 version = "1.38.8"
 source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
@@ -2210,6 +2223,19 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-ollama"
+version = "0.3.4"
+source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "ollama" },
+]
+sdist = { url = "https://mirrors.aliyun.com/pypi/packages/b4/ff/b75aa20bfd17679464ce88e1a2b8103328843bcd669eecbce5bc4d671552/langchain_ollama-0.3.4.tar.gz", hash = "sha256:68d7e0a36eb0ab8130c774283c040152b853e25a6a3aab4bca654c02499f1010" }
+wheels = [
+    { url = "https://mirrors.aliyun.com/pypi/packages/db/88/bab55e2ae39447c7fbd54f69b9a11330ef615e400f0dda01f12d51812ab2/langchain_ollama-0.3.4-py3-none-any.whl", hash = "sha256:62929a61cd4204d26ad15f591400c8d8d8042a390e46ea02db117e277ffcb45a" },
+]
+
+[[package]]
 name = "langchain-openai"
 version = "0.3.27"
 source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
@@ -3066,6 +3092,19 @@ source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
 wheels = [
     { url = "https://mirrors.aliyun.com/pypi/packages/55/66/ed9d28946ead0fe1322df2f4fc6ea042340c0fe73b79a1419dc1fdbdd211/nvidia_nccl_cu12-2.26.5-py3-none-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:adb1bf4adcc5a47f597738a0700da6aef61f8ea4251b375540ae138c7d239588" },
     { url = "https://mirrors.aliyun.com/pypi/packages/48/fb/ec4ac065d9b0d56f72eaf1d9b0df601e33da28197b32ca351dc05b342611/nvidia_nccl_cu12-2.26.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:ea5ed3e053c735f16809bee7111deac62ac35b10128a8c102960a0462ce16cbe" },
+]
+
+[[package]]
+name = "ollama"
+version = "0.5.1"
+source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "pydantic" },
+]
+sdist = { url = "https://mirrors.aliyun.com/pypi/packages/8d/96/c7fe0d2d1b3053be614822a7b722c7465161b3672ce90df71515137580a0/ollama-0.5.1.tar.gz", hash = "sha256:5a799e4dc4e7af638b11e3ae588ab17623ee019e496caaf4323efbaa8feeff93" }
+wheels = [
+    { url = "https://mirrors.aliyun.com/pypi/packages/d6/76/3f96c8cdbf3955d7a73ee94ce3e0db0755d6de1e0098a70275940d1aff2f/ollama-0.5.1-py3-none-any.whl", hash = "sha256:4c8839f35bc173c7057b1eb2cbe7f498c1a7e134eafc9192824c8aecb3617506" },
 ]
 
 [[package]]
@@ -4156,6 +4195,7 @@ dependencies = [
     { name = "asttokens" },
     { name = "autogluon-tabular", extra = ["catboost", "lightgbm", "xgboost"] },
     { name = "autogluon-timeseries" },
+    { name = "beautifulsoup4" },
     { name = "comm" },
     { name = "datasets" },
     { name = "easyocr" },
@@ -4167,6 +4207,7 @@ dependencies = [
     { name = "ipywidgets" },
     { name = "langchain", extra = ["openai"] },
     { name = "langchain-community" },
+    { name = "langchain-ollama" },
     { name = "langchain-openai" },
     { name = "langchain-tavily" },
     { name = "langgraph" },
@@ -4205,6 +4246,7 @@ requires-dist = [
     { name = "asttokens", specifier = ">=3.0.0" },
     { name = "autogluon-tabular", extras = ["catboost", "lightgbm", "xgboost"], specifier = ">=1.3.0" },
     { name = "autogluon-timeseries", specifier = ">=1.3.0" },
+    { name = "beautifulsoup4", specifier = ">=4.13.4" },
     { name = "comm", specifier = ">=0.2.2" },
     { name = "datasets", specifier = ">=3.5.1" },
     { name = "easyocr", specifier = ">=1.7.2" },
@@ -4216,6 +4258,7 @@ requires-dist = [
     { name = "ipywidgets", specifier = ">=8.1.6" },
     { name = "langchain", extras = ["openai"], specifier = ">=0.3.26" },
     { name = "langchain-community", specifier = ">=0.3.27" },
+    { name = "langchain-ollama", specifier = ">=0.3.4" },
     { name = "langchain-openai", specifier = ">=0.3.27" },
     { name = "langchain-tavily", specifier = ">=0.2.7" },
     { name = "langgraph", specifier = ">=0.5.2" },
@@ -5095,6 +5138,15 @@ wheels = [
     { url = "https://mirrors.aliyun.com/pypi/packages/57/5e/70bdd9579b35003a489fc850b5047beeda26328053ebadc1fb60f320f7db/soundfile-0.13.1-py2.py3-none-manylinux_2_28_x86_64.whl", hash = "sha256:03267c4e493315294834a0870f31dbb3b28a95561b80b134f0bd3cf2d5f0e618" },
     { url = "https://mirrors.aliyun.com/pypi/packages/fe/df/8c11dc4dfceda14e3003bb81a0d0edcaaf0796dd7b4f826ea3e532146bba/soundfile-0.13.1-py2.py3-none-win32.whl", hash = "sha256:c734564fab7c5ddf8e9be5bf70bab68042cd17e9c214c06e365e20d64f9a69d5" },
     { url = "https://mirrors.aliyun.com/pypi/packages/14/e9/6b761de83277f2f02ded7e7ea6f07828ec78e4b229b80e4ca55dd205b9dc/soundfile-0.13.1-py2.py3-none-win_amd64.whl", hash = "sha256:1e70a05a0626524a69e9f0f4dd2ec174b4e9567f4d8b6c11d38b5c289be36ee9" },
+]
+
+[[package]]
+name = "soupsieve"
+version = "2.7"
+source = { registry = "https://mirrors.aliyun.com/pypi/simple" }
+sdist = { url = "https://mirrors.aliyun.com/pypi/packages/3f/f4/4a80cd6ef364b2e8b65b15816a843c0980f7a5a2b4dc701fc574952aa19f/soupsieve-2.7.tar.gz", hash = "sha256:ad282f9b6926286d2ead4750552c8a6142bc4c783fd66b0293547c8fe6ae126a" }
+wheels = [
+    { url = "https://mirrors.aliyun.com/pypi/packages/e7/9c/0e6afc12c269578be5c0c1c9f4b49a8d32770a080260c333ac04cc1c832d/soupsieve-2.7-py3-none-any.whl", hash = "sha256:6e60cc5c1ffaf1cebcc12e8188320b72071e922c2e897f737cadce79ad5d30c4" },
 ]
 
 [[package]]
