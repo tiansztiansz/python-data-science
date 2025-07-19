@@ -19,13 +19,14 @@ b站 AI日日新 不定期更新使用Python框架完成机器学习、深度学
    
    
 
-## langchain
+## 大模型
 
-| 概念          | notebook                                                         |
-|:-----------:|:----------------------------------------------------------------:|
-| Few-Shot    | [少样本示例.ipynb](notebooks/少样本示例.ipynb)                             |
-| RAG & Agent | [知识库问答.ipynb](notebooks/知识库问答.ipynb) |
-| RAG & Agent | [联网问答.ipynb](notebooks/联网问答.ipynb)                               |
+| 概念          | notebook                                         |
+|:-----------:|:------------------------------------------------:|
+| Few-Shot    | [少样本示例.ipynb](notebooks/少样本示例.ipynb)             |
+| RAG & Agent | [知识库问答.ipynb](notebooks/知识库问答.ipynb)             |
+| RAG & Agent | [联网问答.ipynb](notebooks/联网问答.ipynb)               |
+| 高并发服务       | [bge-m3-vllm.ipynb](notebooks/bge-m3-vllm.ipynb) |
 
 
 
